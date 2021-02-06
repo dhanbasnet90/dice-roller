@@ -9,10 +9,10 @@ let rolls = [];
 rollButton.addEventListener("click", function() { 
     console.log(dieRollsInput.value);
     console.log(rollButton<0)
-    let maxRolls = Number(dieRollsInput.value);
+    let totalRolls = Number(dieRollsInput.value);
     let count = 0;
 
-while(count < maxRolls) {
+while(count < totalRolls) {
     let randomNumber = Math.floor(Math.random() * 6) + 1;
 allRolls.push(randomNumber);
     count++;
@@ -49,8 +49,7 @@ while( i < rolls.length) {
     i++;
 
 }
-additionTotal.innerHTML = total;
- 
+
 console.log(rolls);
 console.log(16);
 
